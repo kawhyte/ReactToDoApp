@@ -5,11 +5,20 @@ import TodoItem from "./TodoItem";
 
 function App() {
   return (
-    <div className="App">
-      <main className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>To Do App</p>
-        <TodoItem></TodoItem>
+    <div className="wrap">
+      <main className="header">
+         {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <p>To Do List</p>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        
       </main>
     </div>
   );

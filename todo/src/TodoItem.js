@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
+import "./TodoItem.css";
 
-function TodoItem(){
-    return (
-        <div >
-            <span>
-              <input type="checkbox" id="scales" name="scales" />
-              {" "}
-              <label for="scales">Scales</label>
-            </span>
-            <p>
-              <input type="checkbox" id="scales" name="scales" />
-              <label for="scales">Tables</label>
-            </p>
-            <div>
-              <input type="checkbox" id="horns" name="horns" />
-              <label for="horns">Horns</label>
-            </div>
-        
-        </div>
-      );
+function TodoItem() {
+  return (
+    <div>
+        <ol className ="list"> 
+        <li>
+      <label class="container">
+        Todo item
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
 
+
+        </li>
+
+
+        </ol>
+      
+    </div>
+  );
 }
 
-export default TodoItem
+export default TodoItem;
