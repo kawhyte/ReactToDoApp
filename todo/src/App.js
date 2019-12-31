@@ -18,7 +18,6 @@ function App() {
         <TodoItem />
         <TodoItem />
         <TodoItem />
-        
       </main>
     </div>
   );
